@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB1B3ABD253F18C70088A5DE /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1B3ABC253F18C70088A5DE /* Conversation.swift */; };
 		DBA3F891253D96480031D54A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA3F890253D96480031D54A /* AppDelegate.swift */; };
 		DBA3F893253D96480031D54A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA3F892253D96480031D54A /* SceneDelegate.swift */; };
 		DBA3F895253D96480031D54A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA3F894253D96480031D54A /* ViewController.swift */; };
@@ -15,6 +16,8 @@
 		DBA3F89D253D964A0031D54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA3F89B253D964A0031D54A /* LaunchScreen.storyboard */; };
 		DBA3F8A8253D964A0031D54A /* UITableView_ChatroomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA3F8A7253D964A0031D54A /* UITableView_ChatroomTests.swift */; };
 		DBA3F8B3253D964A0031D54A /* UITableView_ChatroomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA3F8B2253D964A0031D54A /* UITableView_ChatroomUITests.swift */; };
+		DBA3F8D4253DBD780031D54A /* MrPigTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA3F8D3253DBD780031D54A /* MrPigTableViewCell.swift */; };
+		DBA3F8D9253DBD9E0031D54A /* MissButterflyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA3F8D8253DBD9E0031D54A /* MissButterflyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB1B3ABC253F18C70088A5DE /* Conversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
 		DBA3F88D253D96480031D54A /* UITableView_Chatroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITableView_Chatroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA3F890253D96480031D54A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBA3F892253D96480031D54A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +53,8 @@
 		DBA3F8AE253D964A0031D54A /* UITableView_ChatroomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableView_ChatroomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA3F8B2253D964A0031D54A /* UITableView_ChatroomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView_ChatroomUITests.swift; sourceTree = "<group>"; };
 		DBA3F8B4253D964A0031D54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA3F8D3253DBD780031D54A /* MrPigTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MrPigTableViewCell.swift; sourceTree = "<group>"; };
+		DBA3F8D8253DBD9E0031D54A /* MissButterflyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissButterflyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +108,10 @@
 				DBA3F890253D96480031D54A /* AppDelegate.swift */,
 				DBA3F892253D96480031D54A /* SceneDelegate.swift */,
 				DBA3F894253D96480031D54A /* ViewController.swift */,
+				DB1B3ABC253F18C70088A5DE /* Conversation.swift */,
 				DBA3F896253D96480031D54A /* Main.storyboard */,
+				DBA3F8D8253DBD9E0031D54A /* MissButterflyTableViewCell.swift */,
+				DBA3F8D3253DBD780031D54A /* MrPigTableViewCell.swift */,
 				DBA3F899253D964A0031D54A /* Assets.xcassets */,
 				DBA3F89B253D964A0031D54A /* LaunchScreen.storyboard */,
 				DBA3F89E253D964A0031D54A /* Info.plist */,
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB1B3ABD253F18C70088A5DE /* Conversation.swift in Sources */,
 				DBA3F895253D96480031D54A /* ViewController.swift in Sources */,
+				DBA3F8D4253DBD780031D54A /* MrPigTableViewCell.swift in Sources */,
 				DBA3F891253D96480031D54A /* AppDelegate.swift in Sources */,
+				DBA3F8D9253DBD9E0031D54A /* MissButterflyTableViewCell.swift in Sources */,
 				DBA3F893253D96480031D54A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
